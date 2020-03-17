@@ -1,7 +1,7 @@
 {
-  "name": "browser-test-example",
+  "name": "jest-playwright-example",
   "version": "0.1.0",
-  "description": "browser test example by playwright.",
+  "description": "Browser test example by playwright.",
   "author": "kimulaco",
   "scripts": {
     "start": "serve public -p 3000",
