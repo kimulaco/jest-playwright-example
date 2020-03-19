@@ -4,7 +4,7 @@
   "description": "Browser test example by playwright.",
   "author": "kimulaco",
   "scripts": {
-    "start": "serve public -p 3000",
+    "start": "serve docs -p 3000",
     "lint": "eslint **/*.js",
     "test": "jest"
   },
