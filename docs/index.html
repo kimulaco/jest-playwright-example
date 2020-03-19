@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>playwright test</title>
+  <title>Playwright Test</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css/dist/light.min.css">
 </head>
 <body>
   <main>
-    <button type="button" id="btn">Show text!</button>
+    <button type="button" id="btn">Click me!</button>
     <p id="text"></p>
   </main>
 
@@ -15,7 +16,7 @@
     const btn = document.getElementById('btn')
     const text = document.getElementById('text')
     btn.addEventListener('click', () => {
-      text.innerText = 'This is renderd text.'
+      text.innerText = 'Nice click!'
     })
   </script>
 </body>

@@ -13,12 +13,12 @@ for (const browserType of browserTypes) {
       await page.goto('http://localhost:3000')
     })
 
-    test('Check renderd text', async () => {
+    test('Show nice click', async () => {
       await page.click('#btn');
       const renderdText = await page.evaluate(async () => {
         return document.getElementById('text').innerText
       })
-      expect(renderdText).toBe('This is renderd text.')
+      expect(renderdText).toBe('Nice click!')
     })
 
     afterAll(async () => {
