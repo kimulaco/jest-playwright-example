@@ -2,6 +2,7 @@
   "name": "jest-playwright-example",
   "version": "0.1.0",
   "description": "Browser test example by playwright.",
+  "license": "ISC",
   "author": "kimulaco",
   "scripts": {
     "start": "serve docs -p 3000",
